@@ -33,7 +33,7 @@ while True:
     headline = f"{subject} {action} {place_or_thing}"
 
     print("\n" + headline)
-    user_input = input("\nDo you want another headline? (yes/no):")
+    user_input = input("\nDo you want another headline? (yes/no):").strip().lower()
     if user_input == "no":
         break
 
